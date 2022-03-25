@@ -16,20 +16,20 @@ Here is the output of the randomized months when i first ran it:
 ## Obtain the data
 The way you can obtain the data I used is by using the following commands (when you have downloaded the github files.)  
 
-First you have to use the command:
-```$ scp get_text.sh s4882067@karora.let.rug.nl:/home/s4882067```
+First you have to use the command:  
+```$ scp get_text.sh s4882067@karora.let.rug.nl:/home/s4882067```  
 Use your own RUG number ofcourse. This lets you upload the code to the karora server.
 
 Then login to karora using your own RUG number:  
-```$ ssh s4882067@karora.let.rug.nl```
+```$ ssh s4882067@karora.let.rug.nl```  
 
-When you are logged into karora you can run bash script with:
-```$ bash get_text.sh```
+When you are logged into karora you can run bash script with:  
+```$ bash get_text.sh```  
 
 After you have done this (which will take a while), you can logout of karora with the command  
 ```$ logout```  
 
 After you have logged out and copied the files you can download them to your pc with the following command. This also downloads them
-to the repository you are in right now: 
-```$ scp s4882067@karora.let.rug.nl:tweets202104.txt tweets202106.txt tweets202108.txt tweets202111.txt . ```
+to the repository you are in right now:  
+```$ scp s4882067@karora.let.rug.nl:tweets202104.txt tweets202106.txt tweets202108.txt tweets202111.txt . ```  
 
