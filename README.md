@@ -4,7 +4,7 @@ The code for a research for the class 'Introduction to Research Methods'
 
 
 ## Month Randomizer
-This code includes a month randomizer, with the month randomizer you can avoid cherry-picking data by using random months for the experiment. The months I used are April, June, August and September of 2021. I chose the year 2021 so the data is new in comparison to, for example, 2016. I only chose four months seeming that it takes a long time to process one month, using all twelve months was too much for the given amount of time. Randomizing these months gives us fair and usable data.  
+This code includes a month randomizer, with the month randomizer you can avoid cherry-picking data by using random months for the experiment. The months I used are April, June, August and November of 2021. I chose the year 2021 so the data is new in comparison to, for example, 2016. I only chose four months seeming that it takes a long time to process one month, using all twelve months was too much for the given amount of time. Randomizing these months gives us fair and usable data.  
 
 You can run the month randomizer by using the following code:  
 
@@ -15,6 +15,7 @@ Here is the output of the randomized months when i first ran it:
 
 ## Obtain the data
 The way you can obtain the data I used is by using the following commands (when you have downloaded the github files.)  
+The data that needs to be obtained is the text from tweets in 2021, in the months April, June, August and November.
 
 First you have to use the command:  
 ```$ scp get_text.sh s4882067@karora.let.rug.nl:/home/s4882067```  
