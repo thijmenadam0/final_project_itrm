@@ -1,6 +1,7 @@
 #!/bin/bash
 # File name: get_text.sh
-# Description: Gets the text needed for the project I did. downloads .txt files to your pc.
+# Description: Gets the text needed for the project I used. Downloading to your pc can be done following the code on
+# https://github.com/thijmenadam0/final_project_itrm.git
 # Author: Thijmen Adam
 # Date: 25-03-2022
 
