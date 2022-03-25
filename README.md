@@ -2,7 +2,7 @@
 
 The code for the research whether ok/OK is used more often than oke/oké/okay on Dutch Twitter.  
 
-##Versions
+## Versions  
 The Ubuntu version used is Ubuntu 20.04.3 LTS  
 The Python version used is Python 3.8.10  
 The twitter data collected is data from 2021, the months April, June, August and November (more on this below)  
