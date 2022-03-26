@@ -37,8 +37,11 @@ After you have done this (which will take a while), you can logout of karora wit
 
 After you have logged out and copied the files you can download them to your pc with the following command. This also downloads them
 to the repository you are in right now:  
-```$ scp s4882067@karora.let.rug.nl:tweets202104.txt .  
-   $ scp s4882067@karora.let.rug.nl:tweets202106.txt .  
-   $ scp s4882067@karora.let.rug.nl:tweets202108.txt .  
-   $ scp s4882067@karora.let.rug.nl:tweets202111.txt .  ```  
+```
+$ scp s4882067@karora.let.rug.nl:tweets202104.txt .  
+$ scp s4882067@karora.let.rug.nl:tweets202106.txt .  
+$ scp s4882067@karora.let.rug.nl:tweets202108.txt .  
+$ scp s4882067@karora.let.rug.nl:tweets202111.txt . 
+   
+```  
 
