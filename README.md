@@ -41,7 +41,6 @@ to the repository you are in right now:
 $ scp s4882067@karora.let.rug.nl:tweets202104.txt .  
 $ scp s4882067@karora.let.rug.nl:tweets202106.txt .  
 $ scp s4882067@karora.let.rug.nl:tweets202108.txt .  
-$ scp s4882067@karora.let.rug.nl:tweets202111.txt . 
-   
+$ scp s4882067@karora.let.rug.nl:tweets202111.txt .
 ```  
 
