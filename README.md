@@ -1,6 +1,6 @@
 # Final Project Introduction to Research Methods
 
-The code for the research whether ok/OK is used more often than oke/oké/okay on Dutch Twitter.  
+The code for the research whether ok/OK/O.K. is used more often than oke/oké/okay on Dutch Twitter.  
 
 ## Versions  
 The Ubuntu version used is Ubuntu 20.04.3 LTS  
