@@ -1,6 +1,6 @@
 # Final Project Introduction to Research Methods
 
-The code for the research whether ok/OK/O.K. is used more often than oke/oké/okay on Dutch Twitter.  
+The code for the research whether ok/OK is used more often than oke/oké on Dutch Twitter.  
 
 ## Versions  
 The Ubuntu version used is Ubuntu 20.04.3 LTS  
@@ -9,7 +9,7 @@ The twitter data collected is data from 2021, the months April, June, August and
 
 
 ## Month Randomizer
-This code includes a month randomizer, with the month randomizer you can avoid cherry-picking data by using random months for the experiment. The months I used are April, June, August and November of 2021. I chose the year 2021 so the data is new in comparison to, for example, 2016. I only chose four months seeming that it takes a long time to process one month, using all twelve months was too much for the given amount of time. Randomizing these months gives us fair and representative data.  
+This code includes a month randomizer, with the month randomizer you can avoid cherry-picking data by using random months for the experiment. The months I used are April, June, August and November of 2021. I chose the year 2021 so the data is new in comparison to, for example, 2016. I only chose four months seeming that it takes a long time to process one month, using all twelve months was too much for the given amount of time. Randomitypographical errorzing these months gives us fair and representative data.  
 
 You can run the month randomizer by using the following code:  
 
