@@ -39,7 +39,7 @@ When you are logged into karora you can run bash script with:
 After you have done this (which will take a while), you can logout of karora with the command  
 ```$ logout```  
 
-After you have logged out and copied the files you have to create a folder named 'alltweets'. After that you can download them to your pc with the following command. This also downloads them
+After you have logged out and copied the files you have to create a folder named 'alltweets' in the GitHub clone you made. After that you can download the data.txt files to your pc with the following command
 to the chosen repository (alltweets):  
 ```
 $ scp s4882067@karora.let.rug.nl:tweets202104.txt ./alltweets  
