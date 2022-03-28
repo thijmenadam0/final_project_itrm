@@ -35,12 +35,34 @@ When you are logged into karora you can run bash script with:
 After you have done this (which will take a while), you can logout of karora with the command  
 ```$ logout```  
 
-After you have logged out and copied the files you can download them to your pc with the following command. This also downloads them
-to the repository you are in right now:  
+After you have logged out and copied the files you have to create a folder named 'alltweets'. After that you can download them to your pc with the following command. This also downloads them
+to the chosen repository (alltweets):  
 ```
-$ scp s4882067@karora.let.rug.nl:tweets202104.txt .  
-$ scp s4882067@karora.let.rug.nl:tweets202106.txt .  
-$ scp s4882067@karora.let.rug.nl:tweets202108.txt .  
-$ scp s4882067@karora.let.rug.nl:tweets202111.txt .
+$ scp s4882067@karora.let.rug.nl:tweets202104.txt ./alltweets  
+$ scp s4882067@karora.let.rug.nl:tweets202106.txt ./alltweets  
+$ scp s4882067@karora.let.rug.nl:tweets202108.txt ./alltweets  
+$ scp s4882067@karora.let.rug.nl:tweets202111.txt ./alltweets
 ```  
 
+## Pre-processing the data
+
+Once you have downloaded the complete data and made sure it's in the repository 'alltweets' you can use the command:  
+``` bash get_ok_oke_data.sh ```  
+
+This piece of code will remove all the Retweets in the data and find all times a tweet contains ok/OK or oke/oké and put these in a seperate file. This will also make two new files named all_ok.txt and all_oke.txt. These files contain the pre-processed data as explained above.
+
+## Getting the results
+
+The pre-processed data can then be used to get the results. The results are the amount of Tweets that use either of the words. A small script has been written for this and can be used by using the command  
+``` bash ok_oke_counter.sh ```  
+
+This command gives the output 
+
+```
+All the times a tweet contains ok or OK:  
+164556  
+All the times a tweet contains oke or oké:  
+160591  
+```
+
+This means that ok/OK is in 164556 Tweets and oke/oké is in 160591 Tweets.
