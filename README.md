@@ -1,6 +1,6 @@
 # Final Project Introduction to Research Methods
 
-This GitHub contains a README.md file, three bash scripts: one for obtaining the Twitter data from Karora (the RUG-server), one for pre-processing the data so it fits this research and one for counting the processed data. It also contains a small Python script for random months, so there is no bias in the research. The whole code is for counting the words ok/OK and oke/oké in Dutch Twitter (2021). Before you do anything you have to clone this github to your own computer, you can do this by doing:
+This GitHub contains a README.md file, three bash scripts: one for obtaining the Twitter data from Karora (the RUG-server), one for pre-processing the data so it fits this research and one for counting the processed data. It also contains a small Python script for random months, so there is no bias in the research. Lastly there is a folder with an image in it for the README.md file. The whole code is for counting the words ok/OK and oke/oké in Dutch Twitter (2021). Before you do anything you have to clone this github to your own computer, you can do this by doing:
 
 ``` git clone https://github.com/thijmenadam0/final_project_itrm.git ```
 
