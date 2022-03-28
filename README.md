@@ -1,6 +1,6 @@
 # Final Project Introduction to Research Methods
 
-The code for the research whether ok/OK is used more often than oke/oké on Dutch Twitter.  
+This GitHub contains a README.md file, three bash scripts: one for obtaining the Twitter data from Karora (the RUG-server), one for pre-processing the data so it fits this research and one for counting the processed data. It also contains a small Python scripts for random months, so there is no bias in the research. The whole code is for counting the words ok/OK and oke/oké in Dutch Twitter (2021).
 
 ## Versions  
 The Ubuntu version used is Ubuntu 20.04.3 LTS  
@@ -21,6 +21,8 @@ Here is the output of the randomized months when i first ran it:
 ## Obtain the data
 The way you can obtain the data I used is by using the following commands (when you have downloaded the github files.)  
 The data that needs to be obtained is the text from tweets in 2021, in the months April, June, August and November.
+
+The following commands are all with my own student number (s4882067). If you want to replicate this research, use your own RUG-number on the occassions where i used mine!
 
 First you have to use the command:  
 ```$ scp get_text.sh s4882067@karora.let.rug.nl:/home/s4882067```  
