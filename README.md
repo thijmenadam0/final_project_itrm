@@ -17,14 +17,14 @@ You can run the month randomizer by using the following code:
 
 ```$ python3 random_months.py```  
 
-Here is the output of the randomized months when i first ran it:
+Here is the output of the randomized months when I first ran it:
 ![Output of my randomized months](images/output_random_months.png)
 
 ## Obtain the data
 The way you can obtain the data I used is by using the following commands (when you have downloaded the github files.)  
 The data that needs to be obtained is the text from tweets in 2021, in the months April, June, August and November.
 
-The following commands are all with my own student number (s4882067). If you want to replicate this research, use your own RUG-number on the occassions where i used mine!
+The following commands are all with my own student number (s4882067). If you want to replicate this research, use your own RUG-number on the occassions where I used mine!
 
 First you have to use the command:  
 ```$ scp get_text.sh s4882067@karora.let.rug.nl:/home/s4882067```  
